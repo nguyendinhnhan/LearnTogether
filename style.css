@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#wrapper{
+    margin: auto;
+    border: 1px solid red;
+    width: 800px;
+    padding: 30px 20px;
+}
+h3{
+    margin-left: 170px;
+    color: red;
+}
+.row{
+    padding: 10px 0px;
+    display: flex;
+}
+.row span{ width: 170px;}
+.row input, textarea,select {
+    width: 200px;
+    border-radius: 2px;
+    padding: 5px 10px;
+}
+
+.row input[type="submit"],input[type="reset"],input[type="button"]{
+    background-color: #9BC0E5;
+    margin-left: 50px;
+    width: 120px;
+}
+.row input[type="submit"]{
+    margin-left: 170px;
+}
+.row input[type="radio"]{
+    width: 30px;
+}
+table{
+    width: 100%;
+}
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+th {
+  background-color: rgb(150, 123, 123);
+  color: white;
+}
